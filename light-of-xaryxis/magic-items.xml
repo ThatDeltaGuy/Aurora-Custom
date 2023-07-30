@@ -9,11 +9,29 @@
 		</update>
 	</info>
 
+    <element name="Arcane Reflector" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_ARCANE_REFLECTOR">
+		<description>
+			<p>This shield has a large, purple gemstone at its center. When you are the target of a spell of 1st level or higher that targets only you while carrying this shield, you can use your reaction to attempt to redirect the spell. Roll a d8. If the roll is higher than the spell’s level, the spell targets another creature of your choice you can see within 30 feet of you. If the roll is equal to or lower than the spell’s level, the spell isn’t redirected and the shield loses its magic as the stone in its center crumbles to dust.</p>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+		</rules>
+	</element>
 
     <element name="Briefcase of Abnormalities" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_BRIEFCASE_OF_ABNORMALITIES">		
 		<description>
 			<p>This strange-looking, red, triangular briefcase is inscribed with various eldritch symbols. As an action, you can open the bag and pull out an object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature determined at random by rolling a d8 on the table below. The creature vanishes after 1 hour or when it is reduced to 0 hit points.</p>
 			<p>Flip a coin to decide if the creature is hostile or friendly to you and your companions. Whether friendly or not, it acts on its own initiative and in a fashion appropriate to its nature. Once an object has been pulled from the bag, the bag can’t be used again until the next dawn.</p>
+
+            <p>d8 Creature</p>
 			<ol>
                 <li>Flumph</li>
                 <li>Psurlon Ringer</li>
@@ -31,7 +49,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
-			<set name="attunement" addition="by a creature of good alignment">true</set>
+			<set name="attunement">false</set>
 		</setters>
 	</element>
 
