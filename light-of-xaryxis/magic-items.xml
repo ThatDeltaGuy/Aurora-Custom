@@ -65,7 +65,7 @@
 			<set name="attunement">false</set>
 			<set name="type" addition="Crossbow, Hand">Weapon</set>
 			<set name="rarity">Rare</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_CROSSBOWS_HAND</set>
 		</setters>
 	</element>
 </elements>
