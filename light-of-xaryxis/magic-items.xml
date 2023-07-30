@@ -53,4 +53,19 @@
 		</setters>
 	</element>
 
+    <element name="Crossbow of Portals" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_CROSSBOW_OF_PORTALS">
+		<description>
+			<p>The crossbow has 4 charges. This intricate crossbow is coveted by high-profile Wildspace brigands. You can take an action to expend 1 charge from it to fire at a flat surface within 120 feet that is at least 10 feet tall and 10 feet wide to create a portal on that surface.</p>
+			<p class="indent">The crossbow alternates between creating blue or red portals and glows the color of the portal it is ready to create. Any creature or object entering a blue portal exits from a red portal as if the two were adjacent to each other (and vice versa). A portal created by the crossbow lasts for 1 minute or until a new portal of the same color is created.</p>
+            <p class="indent">The crossbow regains 1 expended charge every 8 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">false</set>
+			<set name="type" addition="Crossbow, Hand">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>
+		</setters>
+	</element>
 </elements>
