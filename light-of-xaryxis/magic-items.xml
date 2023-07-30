@@ -4,7 +4,7 @@
 		<name>Magic Items</name>
 		<description></description>
 		<author></author>
-		<update version="0.3.1">
+		<update version="0.3.2">
 			<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/light-of-xaryxis/magic-items.xml" />
 		</update>
 	</info>
