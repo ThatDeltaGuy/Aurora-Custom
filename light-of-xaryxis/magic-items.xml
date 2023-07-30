@@ -5,7 +5,7 @@
 		<description></description>
 		<author></author>
 		<update version="0.0.7">
-			<file name="magic-items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/light-of-xaryxis/magic-items.xml" />
+			<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/light-of-xaryxis/magic-items.xml" />
 		</update>
 	</info>
 
