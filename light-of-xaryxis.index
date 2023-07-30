@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Light Of Xaryxis</name>
+		<description>The content for the Light of Xaryxis Campaign</description>
+		<author></author>
+		<update version="0.2.6">
+			<file name="light-of-xaryxis.index" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/light-of-xaryxis.index" />
+		</update>
+	</info>
+	<files>
+		<file name="magic-items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/light-of-xaryxis/magic-items.xml" />
+	</files>
+</index>
