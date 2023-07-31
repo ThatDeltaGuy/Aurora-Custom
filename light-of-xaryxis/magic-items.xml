@@ -133,4 +133,22 @@
 			<set name="attunement">true</set>
 		</setters>
 	</element>
+
+	<element name="Starseeker’s Amulet" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_STARSEEKERS_AMULET">
+		<description>
+			<p>This circular amulet is crafted from a strange black metal and has a depiction of a star at its center. While you’re attuned to a spelljamming helm and wearing this amulet, you have resistance to psychic damage. Additionally, you have advantage on Constitution checks made to resolve a spelljammer duel.</p>
+			<p class="indent"><strong><em>Jammer.</em></strong> As an action, you can target one spelljamming ship within 300 feet of you that you can see and attempt to magically suppress the properties of the ship’s spelljamming helm. If the ship has more than one helm aboard it, randomly determine which helm is affected. A creature attuned to that helm must make a DC 13 Charisma saving throw. On a failed save, the creature takes 28 (8d6) psychic damage and the helm’s magic is suppressed for 1d10 minutes. On a successful save, you take the damage instead and the helm’s magic isn’t suppressed. Once used, this property can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
 </elements>
