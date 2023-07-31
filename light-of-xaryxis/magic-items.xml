@@ -81,7 +81,7 @@
 		</setters>
 	</element>
 
-	<element name="Illithid’s Breastplate" type="Magic Item"source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_ILLITHIDS_BREASTPLATE">
+	<element name="Illithid’s Breastplate" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_ILLITHIDS_BREASTPLATE">
 		<description>
 			<p>This magical armor is made of steel on the outside and reinforced with a tough, carapace-like material on the inside. While wearing this armor, you have a +1 bonus to AC and can speak Deep Speech.</p>
 			<p class="indent"><strong><em>Mind Blast.</em></strong>  As an action, you emit a blast of psychic energy. Each creature within 20 feet of you must succeed on a DC 13 Intelligence saving throw or take 18 (4d8) psychic damage and be stunned until the end of its next turn. Once used, this property can’t be used again until the next dawn. </p>
@@ -98,5 +98,24 @@
 			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
 			<grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
 		</rules>
+	</element>
+
+	<element name="Potion of Wrath" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_POTION_OF_WRATH">		
+		<description>
+			<p>Bloodied veins seem to grow along the edges of this glass vial which contains a blue liquid brewed from the brain of a freyr mixed with the blood of a giant. For 1d4 hours after drinking the potion, you gain the following effects:</p>
+			<ul>
+				<li>Your hit point maximum increases by 10, and you gain the same number of hit points.</li>
+				<li>You gain the “enlarge” effect of the enlarge/reduce spell (no concentration required).</li>
+				<li>You’re immune to being frightened but have disadvantage on saving throws against being charmed.</li>
+			</ul>
+			<p>When the effect ends, hideous deformities appear on your skin, and you gain one level of exhaustion plus one additional level of exhaustion for each time you’ve previously drunk a potion of wrath within the last year. </p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
 	</element>
 </elements>
