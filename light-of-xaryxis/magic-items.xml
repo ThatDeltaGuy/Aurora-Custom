@@ -4,7 +4,7 @@
 		<name>Magic Items</name>
 		<description></description>
 		<author></author>
-		<update version="0.3.2">
+		<update version="0.3.3">
 			<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/light-of-xaryxis/magic-items.xml" />
 		</update>
 	</info>
@@ -21,9 +21,6 @@
 			<set name="rarity">Uncommon</set>
 			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
 		</setters>
-		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
-		</rules>
 	</element>
 
     <element name="Briefcase of Abnormalities" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_BRIEFCASE_OF_ABNORMALITIES">		
@@ -66,6 +63,21 @@
 			<set name="type" addition="Crossbow, Hand">Weapon</set>
 			<set name="rarity">Rare</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_CROSSBOWS_HAND</set>
+		</setters>
+	</element>
+
+	<element name="Heartbreaker's Brooch" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_HEARTBREAKERS_BROOCH">
+		<description>
+			<p>While you’re wearing this brooch and make an ability check using Charisma, you can choose to gain advantage on the roll. Once this property has been used, it can’t be used again until the next dawn.</p>
+			<p class="indent"><strong><em>Beguiling Magic.</em></strong> This brooch has 3 charges and regains all expended charges daily at dawn. As an action, you can expend 1 or more of its charges to cast one of the following spells (spell save DC 13): <em>charm person</em> (1 charge), <em>crown of madness</em> (2 charges), or <em>suggestion</em> (2 charges)</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
 		</setters>
 	</element>
 </elements>
