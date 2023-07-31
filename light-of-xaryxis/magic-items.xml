@@ -151,4 +151,19 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
 	</element>
+
+	<element name="Telepathy Crystal" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_TELEPATHY_CRYSTAL">
+		<description>
+			<p>Azure and purple energy seem to swirl inside this squared, blue crystal. While holding this crystal, you can communicate telepathically with any creature you can see within 60 feet of you.</p>
+			<p class="indent"><strong><em>Telepathic Adept.</em></strong>  As an action while holding the crystal, you can activate its magic to increase the limits of your telepathy. For 1 hour, you can perceive the content of any telepathic communication used within 60 feet of you, and you can’t be surprised by creatures with any form of telepathy. Additionally, you are immune to any effect that would sense your emotions or read your thoughts, as well as all divination spells. Once used, this property can’t be used again until the next dawn</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
 </elements>
