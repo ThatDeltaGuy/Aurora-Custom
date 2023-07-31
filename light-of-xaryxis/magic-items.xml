@@ -118,4 +118,19 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+
+	<element name="Psionic's Mitts" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_PSIONICS_MITTS">
+		<description>
+			<p>These magic gauntlets are powered by a gravity crystal. As an action while wearing the gauntlets, you can attempt to telekinetically move a Medium or smaller creature or an object weighing 10 pounds or less that you can see within 60 feet of you. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be moved up to 30 feet in any direction. If the target is an object, a creature wearing or carrying the object can make a DC 13 Strength (Athletics) check. If the creature succeeds on its check, the attempt fails. If the creature fails, or if the object isn’t being worn or carried, it is moved up to 30 feet in any direction.</p>
+			<p class="indent"><strong><em>Gravity Wave.</em></strong> As an action, you release a wave of gravitational energy in a 60-foot cone. Each creature in that area must make a DC 15 Constitution saving throw. On a failure, a creature takes 21 (6d6) force damage, and its speed becomes 0 until the end of its next turn. Once used, this property can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
 </elements>
