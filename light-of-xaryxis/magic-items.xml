@@ -4,7 +4,7 @@
 		<name>Magic Items</name>
 		<description></description>
 		<author></author>
-		<update version="0.3.3">
+		<update version="0.4.0">
 			<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/light-of-xaryxis/magic-items.xml" />
 		</update>
 	</info>
@@ -164,6 +164,21 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+	<element name="Robe of Useful Things" type="Magic Item" source="Light of Xaryxis" id="ID_LOX_MAGIC_ITEM_ROBE_OF_USEFUL_THINGS">
+		<description>
+			<p>A red robe covered in pockets of various sizes<p>
+			<p>The robe is able to produce useful items from any of its pockets when asked by the wearer. Anything worth more than 10 gold pieces like gold and jewels cannot be produced by the robe. Only the wearer can remove items from the pockets.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">false</set>
 		</setters>
 	</element>
 </elements>
