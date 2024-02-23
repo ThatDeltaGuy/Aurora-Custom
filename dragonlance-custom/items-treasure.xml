@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Treasure</name>
+		<description></description>
+		<author></author>
+		<update version="0.1.0">
+			<file name="items-treasure.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/items-treasure.xml" />
+		</update>
+	</info>
+
+   <element name="Wooden Statuette - Kingfisher" type="Item" source="Dragonlance Custom" id="ID_WOTC_DMG_ITEM_STATUETTE_KINGFISHER">
+		<description>
+			<p>A small wooden Kingfisher Statuette.</p>
+		</description>
+		<setters>
+			<set name="keywords">art object,wooden</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+</elements>

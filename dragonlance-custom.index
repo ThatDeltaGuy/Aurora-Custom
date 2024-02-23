@@ -11,5 +11,6 @@
 	<files>
 		<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/magic-items.xml" />
 		<file name="items-poison.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/items-poison.xml" />
+		<file name="items-treasure.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/items-treasure.xml" />
 	</files>
 </index>
