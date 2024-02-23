@@ -4,7 +4,7 @@
 		<name>Poison</name>
 		<description></description>
 		<author></author>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="items-poison.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/items-poison.xml" />
 		</update>
 	</info>
@@ -24,5 +24,22 @@
 			<set name="stackable">true</set>
 		</setters>
 		<sheet alt="Dose of Laxative (Ingested)" />
+	</element>
+
+	<element name="Hallucinogenic Blue Powder" type="Item" source="Dragonlance Custom" id="ID_WOTC_DMG_ITEM_POISON_BLUE_POWDER">
+		<description>
+			<p>A small bag of blue powder that creates hallucinations when inhaled.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INHALED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,inhale</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Hallucinogenic Blue Powder (Inhaled)" />
 	</element>
 </elements>
