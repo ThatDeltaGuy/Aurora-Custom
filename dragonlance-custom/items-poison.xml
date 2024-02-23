@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Poison</name>
+		<description></description>
+		<author></author>
+		<update version="0.1.0">
+			<file name="items-poison.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/items-poison.xml" />
+		</update>
+	</info>
+
+	<element name="Dose of Laxative" type="Item" source="Dragonlance Custom" id="ID_WOTC_POTA_ITEM_POISON_DOSE_LAXATIVE">
+		<description>
+			<p>A Dose of Laxative</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INGESTED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Dose of Laxative (Ingested)" />
+	</element>
+</elements>

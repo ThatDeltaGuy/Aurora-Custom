@@ -4,11 +4,12 @@
 		<name>Dragonlance</name>
 		<description>The custom content for the Dragonlance Campaign</description>
 		<author></author>
-		<update version="0.1.3">
+		<update version="0.1.4">
 			<file name="dragonlance-custom.index" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom.index" />
 		</update>
 	</info>
 	<files>
 		<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/magic-items.xml" />
+		<file name="items-poison.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/items-poison.xml" />
 	</files>
 </index>
