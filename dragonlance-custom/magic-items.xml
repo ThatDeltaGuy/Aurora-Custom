@@ -4,7 +4,7 @@
 		<name>Magic Items</name>
 		<description></description>
 		<author></author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/magic-items.xml" />
 		</update>
 	</info>
@@ -13,6 +13,12 @@
 		<description>
 			<p>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</p>
 			<p class="indent"><strong>Curse.</strong>This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a Remove Curse spell or similar magic, you are unwilling to part with the weapon.</p>
+			<p>the blade can be leveled up:</p>
+			<ul>
+				<li>+1 - You cam use the blade to cast darkness. You regain the ability to do so after a short or long rest.</li>
+				<li>+2 - In addition to +1, you gain darkvision out to 120ft and the ability to see in magical darkness.</li>
+				<li>+3 - in addition to +1 and +2, you can grant another creature of your choice within 30ft the benefits of +2.</li>
+			</ul>
 		</description>
 		<setters>
 			<set name="keywords">sword</set>
