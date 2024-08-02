@@ -4,12 +4,12 @@
 		<name>Magic Items</name>
 		<description></description>
 		<author></author>
-		<update version="0.1.2">
+		<update version="0.2">
 			<file name="magic-items.xml" url="https://raw.githubusercontent.com/ThatDeltaGuy/Aurora-Custom/master/dragonlance-custom/magic-items.xml" />
 		</update>
 	</info>
 
-   <element name="Gambler's Blade" type="Magic Item" source="Lost Laboratory of Kwalish" id="ID_WOTC_POTA_MAGIC_ITEM_GAMBLERS_BLADE">
+   <element name="Gambler's Blade" type="Magic Item" source="Lost Laboratory of Kwalish" id="ID_WOTC_LLOK_MAGIC_ITEM_GAMBLERS_BLADE">
 		<description>
 			<p>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</p>
 			<p class="indent"><strong>Curse.</strong>This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a Remove Curse spell or similar magic, you are unwilling to part with the weapon.</p>
@@ -31,5 +31,23 @@
 			<set name="enhancement">1</set>
 			<set name="name-format">Gamblers Blade ({{parent}}) +1-3</set>
 		</setters>
+	</element>
+
+
+	<element name="Nimble Weave Gloves" type="Magic Item" source="Dragonlance Custom" id="ID_WOTC_DC_MAGIC_ITEM_NIMBLE_WEAVE_GLOVES">
+		<description>
+			<p>Satin gloves with Mithral strands weaved in.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="dexterity:score:set" value="19" bonus="base" />
+		</rules>
 	</element>
 </elements>
